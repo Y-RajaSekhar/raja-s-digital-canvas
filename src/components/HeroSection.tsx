@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react';
 
 const HeroSection = () => {
   const handleScrollToAbout = () => {
@@ -42,6 +42,14 @@ const HeroSection = () => {
           </a>
           <a href="#contact" className="btn-secondary">
             Get In Touch
+          </a>
+          <a 
+            href="/RajaSekharResume.pdf" 
+            download="RajaSekhar_Resume.pdf"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium text-muted-foreground hover:text-foreground border border-border/50 hover:border-primary/30 bg-card transition-all duration-300 hover:-translate-y-0.5"
+          >
+            <Download size={18} />
+            Download CV
           </a>
         </div>
 
