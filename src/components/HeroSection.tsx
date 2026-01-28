@@ -27,7 +27,7 @@ const HeroSection = () => {
 
         {/* Role */}
         <p className="animate-fade-up-delay-1 text-xl md:text-2xl text-muted-foreground mb-4 font-medium">
-          Frontend & Data Science Enthusiast
+          Frontend Developer | UI & Data Science Enthusiast
         </p>
 
         {/* Tagline */}

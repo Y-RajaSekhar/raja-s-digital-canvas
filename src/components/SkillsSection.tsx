@@ -47,11 +47,11 @@ const SkillsSection = () => {
           {skillCategories.map((category, index) => (
             <div
               key={category.title}
-              className={`card-elevated p-6 ${isInView ? 'animate-fade-up' : 'opacity-0'}`}
+              className={`card-elevated p-6 group cursor-default ${isInView ? 'animate-fade-up' : 'opacity-0'}`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Category Icon */}
-              <div className={`w-12 h-12 rounded-xl ${category.color} flex items-center justify-center mb-5`}>
+              <div className={`w-12 h-12 rounded-xl ${category.color} flex items-center justify-center mb-5 transition-transform duration-300 group-hover:scale-110`}>
                 <category.icon size={24} />
               </div>
 
