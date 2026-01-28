@@ -37,11 +37,11 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div
               key={project.title}
-              className={`group relative card-elevated p-8 overflow-hidden ${isInView ? 'animate-fade-up' : 'opacity-0'}`}
+              className={`group relative card-elevated p-8 overflow-hidden cursor-default ${isInView ? 'animate-fade-up' : 'opacity-0'}`}
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               {/* Gradient Background Decoration */}
-              <div className={`absolute top-0 right-0 w-48 h-48 bg-gradient-to-br ${project.color} rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2 transition-all duration-500 group-hover:scale-150`} />
+              <div className={`absolute top-0 right-0 w-48 h-48 bg-gradient-to-br ${project.color} rounded-full blur-3xl opacity-40 -translate-y-1/2 translate-x-1/2 transition-all duration-500 group-hover:scale-150 group-hover:opacity-60`} />
 
               <div className="relative z-10">
                 {/* Project Icon */}
@@ -73,11 +73,11 @@ const ProjectsSection = () => {
 
                 {/* Action Buttons */}
                 <div className="flex items-center gap-4">
-                  <button className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
+                  <button className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-all duration-300 hover:gap-3">
                     <ExternalLink size={16} />
                     View Details
                   </button>
-                  <button className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+                  <button className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-all duration-300 hover:gap-3">
                     <Github size={16} />
                     View Code
                   </button>

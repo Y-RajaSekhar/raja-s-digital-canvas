@@ -29,7 +29,7 @@ const AboutSection = () => {
         <div className={`text-center mb-16 ${isInView ? 'animate-fade-up' : 'opacity-0'}`}>
           <span className="text-primary font-medium text-sm uppercase tracking-wider">About Me</span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-3">
-            Who I Am
+            About Me
           </h2>
         </div>
 
@@ -38,15 +38,15 @@ const AboutSection = () => {
           <div className={`space-y-6 ${isInView ? 'animate-slide-in-left' : 'opacity-0'}`}>
             <p className="text-lg text-muted-foreground leading-relaxed">
               I'm a <span className="text-foreground font-medium">final-year B.Tech Computer Science (Data Science)</span> student 
-              with a strong foundation in programming, databases, and application development.
+              with a solid foundation in programming, databases, and full-stack application development.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My experience spans across <span className="text-foreground font-medium">AI, NLP, data analysis, and web development</span>. 
-              I'm passionate about creating intuitive user interfaces that merge beautiful design with intelligent functionality.
+              I specialize in building <span className="text-foreground font-medium">intuitive user interfaces powered by intelligent systems</span>. 
+              My experience spans AI, NLP, data analysis, and modern web development—bridging design and data-driven functionality.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a quick learner with a practical, problem-solving mindset, always eager to explore 
-              new technologies and build solutions that make a real impact.
+              A quick learner with a problem-solving mindset, I'm driven to explore new technologies 
+              and craft solutions that create meaningful impact.
             </p>
           </div>
 

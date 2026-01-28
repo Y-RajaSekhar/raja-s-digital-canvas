@@ -11,15 +11,15 @@ const galleryItems = [
   },
   {
     id: 2,
-    title: 'UI Design Process',
-    category: 'UI/UX',
-    image: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&h=400&fit=crop',
+    title: 'Dashboard Design',
+    category: 'Frontend',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
   },
   {
     id: 3,
-    title: 'Data Visualization',
-    category: 'Data Science',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    title: 'UI Components',
+    category: 'UI/UX',
+    image: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&h=400&fit=crop',
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const galleryItems = [
   {
     id: 5,
     title: 'Responsive Design',
-    category: 'UI/UX',
+    category: 'Frontend',
     image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&h=400&fit=crop',
   },
   {
